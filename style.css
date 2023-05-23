@@ -25,21 +25,24 @@ ul {
     padding: 20px 0px 30px;
     margin: 0px 20px;
     height: 30px;   
+    
 }
 
-.menu_item:hover a {
-   color: #f4fffe; 
+.cat{
+animation: bounce 2s infinite; 
+}
+.menu_item:hover  a {
+    border-bottom: 1px solid #2980b9;
+   cursor: pointer;
+   color: #f7dd49;
+   animation: bounce 2s infinite;  
+      
 }
 
-.menu:hover .menu_item:hover {
-    color: white;
-}
+
 body{
     background-color: gainsboro;
     font-family: 'Caveat', cursive;
- 
-   
-    
 }
 h1{
     color: rgb(0, 0, 0);
@@ -133,10 +136,24 @@ p{
             flex-direction: row;            
         }
     .block{
-            margin-top: 190px;
+            margin-top: 220px;
         }
     article {
-            margin-top: 290px;
+            margin-top: 320px;
         }
       
 }
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+      transform: scaleY(1.2)
+    }
+    60% {
+      transform: translateY(-10px);
+      
+    }
+  }
