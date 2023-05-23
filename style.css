@@ -1,0 +1,138 @@
+ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+}
+.menu {
+    background-color: #1b2175ea;
+    padding: 24px;
+    text-align: center;
+     box-sizing: border-box;
+     border-radius: 5px;
+     position: fixed ;
+     top: 5px;
+     width: 100%;
+    
+    
+}
+.menu_item {
+    font-size: 20px;
+    font-family: Century Gothic;
+    color: white;
+    padding: 20px 0px 30px;
+    margin: 0px 20px;
+    height: 30px;   
+}
+
+.menu_item:hover a {
+   color: #f4fffe; 
+}
+
+.menu:hover .menu_item:hover {
+    color: white;
+}
+body{
+    background-color: gainsboro;
+    
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 210px;
+}
+a {
+    text-decoration:none;
+    color: rgb(166, 157, 187);
+}
+.main{
+    color: rgb(255, 255, 255);
+}
+
+.menu_item img {
+    border-radius: 50%;
+    margin:0px 20px;
+    height: 50px;
+    width: 70px;
+    border: black solid 2px ;
+}
+.block{
+    border-radius: 5px;
+    height: 70px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    width: 380px;
+    background-color: white;  
+    margin-top: 120px;
+    position: fixed;
+    right: 5px;
+    top: 20px;
+}
+.button{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.button1{
+    background-color: #27ae60;
+    margin-left:10px ;
+}
+.button2{
+    background-color: #2980b9;
+    display: block;
+    margin:0 10px;
+}
+.pass{
+    text-align: left;
+    margin: 10px 0px;
+    color: skyblue;
+}
+p{
+    font-size: 20px;
+}
+.copyright {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  footer{
+    background-color:  #1b2175ea;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  main{
+    margin: 20px;
+  }
+  article{
+    text-align: center;
+  }
+  .mems{
+    display: flex;
+    justify-content: center;
+  }
+ 
+  @media  (max-width: 920px) {
+    ul {
+        flex-direction: column;
+    }
+    .menu_item {
+        padding: 0px 0px 0px;
+        margin: 0px 20px;
+        height: auto;
+           }
+
+    .block ul{
+            flex-direction: row;            
+        }
+    .block{
+            margin-top: 190px;
+        }
+    article {
+            margin-top: 290px;
+        }
+      
+}
