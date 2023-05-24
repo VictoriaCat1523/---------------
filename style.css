@@ -63,6 +63,10 @@ a {
     width: 70px;
     border: black solid 2px ;
 }
+
+.block a {
+    color: #ffffff;
+}
 .block{
     border-radius: 5px;
     height: 70px;
@@ -119,10 +123,28 @@ p{
     justify-content: center;
   }
  
+  form{
+    margin-bottom: 150px;
+}
+form input {
+    margin: 10px;
+}
+article {
+    margin-top: 320px;
+}
+
   @media  (max-width: 920px) {
     ul {
         flex-direction: column;
     }
+ 
+    form{
+        margin-bottom: 150px;
+    }
+    form input {
+        margin: 10px;
+    }
+ 
     .menu_item {
         padding: 0px 0px 0px;
         margin: 0px 20px;
@@ -141,6 +163,9 @@ p{
       
 }
 
+
+
+
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
       transform: translateY(0);
@@ -154,3 +179,6 @@ p{
       
     }
   }
+  a  {
+    text-decoration: none;
+ }
