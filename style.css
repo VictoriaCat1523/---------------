@@ -35,8 +35,7 @@ animation: bounce 2s infinite;
     border-bottom: 1px solid #2980b9;
    cursor: pointer;
    color: #f7dd49;
-   animation: bounce 2s infinite;  
-      
+        
 }
 
 
@@ -88,11 +87,9 @@ a {
 }
 .button2{
     background-color: #2980b9;
-    display: block;
     margin:0 10px;
 }
 .pass{
-    text-align: left;
     margin: 10px 0px;
     color: skyblue;
     font-size: 18px;
